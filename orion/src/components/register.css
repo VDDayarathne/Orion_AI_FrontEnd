@@ -1,0 +1,124 @@
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-image: url('../images/Register.png'); /* Ensure the correct path */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .register-box {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 450px;
+    width: 100%;
+    margin-left: 20%;
+  }
+
+  .register-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(67, 67, 67, 1); 
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .register-tab, .login-tab {
+    background-color: #1d9bf0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .login-tab {
+    background-color: rgba(67, 67, 67, 1);
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 2px; /* Minimize the gap */
+    font-size: 0.8rem;
+    color: rgba(67, 67, 67, 1);
+  }
+
+  form input[type="email"],
+  form input[type="text"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 8px; /* Adjust padding as needed */
+    margin-bottom: 10px; /* Minimize the gap */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    background-color: rgba(67, 67, 67, 1); /* Grey background for input boxes */
+  }
+
+  form input[type="email"]:focus,
+  form input[type="text"]:focus,
+  form input[type="password"]:focus {
+    border-color: #1d9bf0; /* Highlight border color on focus */
+  }
+
+  form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(67, 67, 67, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px; /* Space above the button */
+  }
+
+  form button[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  a {
+    color: #1d9bf0;
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  /* Position "Don't have an account? Register" lower */
+  .register-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  .info-text {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    color: #000;
+  }
+  .contact{
+    color: rgba(67, 67, 67, 1); /* Change color */
+    text-decoration: none;
+    font-weight: bold;
+  }

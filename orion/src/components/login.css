@@ -1,0 +1,163 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-image: url('../images/Login.png'); /* Ensure the correct path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    margin-left: 20%;
+  }
+  
+  .login-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(67, 67, 67, 1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .login-tab1, .register-tab1 {
+    background-color: #1d9bf0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .register-tab1 {
+    background-color: rgba(67, 67, 67, 1);
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 2px; /* Reduce margin between label and input */
+    font-size: 0.8rem;
+    color: rgba(67, 67, 67, 1);
+  }
+  
+  .input-with-icon {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .input-with-icon input[type="email"],
+  .input-with-icon input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    padding-right: 30px; /* Space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    background-color: rgba(67, 67, 67, 1);
+  }
+  
+  .input-error {
+    border: 2px solid red; /* Red border for input error */
+  }
+  
+  .error-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  
+  form input[type="email"]:focus,
+  form input[type="password"]:focus {
+    border-color: #1d9bf0;
+  }
+  
+  .login-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  
+  form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(67, 67, 67, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  a {
+    color: #1d9bf0;
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  /* Custom styles for "Forgot your password?" and "Register" links */
+  .forgot-password,
+  .register-link1 a {
+    color: rgba(67, 67, 67, 1);
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover,
+  .register-link1 a:hover {
+    cursor: pointer;
+  }
+  
+  .register-link1 {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+  }
+  
+  .remember-me input[type="checkbox"] {
+    margin-right: 12px;
+  }

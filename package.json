@@ -1,0 +1,18 @@
+{
+  "name": "orionai-frontend",
+  "version": "1.0.0",
+  "description": "This is the front end using react for AI prompt learning gemification app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react-bootstrap": "^2.10.4",
+    "react-scripts": "^5.0.1",
+    "swiper": "^11.1.9"
+  }
+}
