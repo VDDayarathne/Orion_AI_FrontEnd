@@ -107,8 +107,8 @@ const TaskA2 = () => {
               <h5>Score Details</h5>
               <Card>
                 <Card.Body>
-                  <p>Score: {scoreDetails.score} / {scoreDetails.max_score}</p>
-                  <p>Analysis: {scoreDetails.analysis}</p>
+                  <p style={{color:"white"}}>Score: {scoreDetails.score} / {scoreDetails.max_score}</p>
+                  <p style={{color:"white"}}>Analysis: {scoreDetails.analysis}</p>
                 </Card.Body>
               </Card>
             </Col>
@@ -119,7 +119,7 @@ const TaskA2 = () => {
         <Col>
           <h5>Improved Prompt</h5>
           <Card>
-            <Card.Body>{improvedPrompt}</Card.Body>
+            <Card.Body style={{color:"white"}}>{improvedPrompt}</Card.Body>
           </Card>
         </Col>
       </Row>

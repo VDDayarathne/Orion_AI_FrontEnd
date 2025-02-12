@@ -23,7 +23,6 @@ const Hello = () => {
           <br /><br />
           <p variant="light" >Start Your Journey</p>
           <Link to='/login'>
-         
             <a class="head-button">Join Us</a>
           </Link>
         </div>

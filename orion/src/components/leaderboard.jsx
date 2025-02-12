@@ -10,7 +10,7 @@ const Leaderboard = () => {
           <div className="list-group">
               <div
                 className="list-group-item d-flex justify-content-between align-items-center bg-dark text-white border-0"
-                style={{ padding: '30px', fontSize: '2rem' }}
+                style={{ padding: '30px', fontSize: '1.5rem' }}
               >
                 <div className="d-flex align-items-center">
                   <div
@@ -23,7 +23,7 @@ const Leaderboard = () => {
               </div>
               <div
                 className="list-group-item d-flex justify-content-between align-items-center bg-dark text-white border-0"
-                style={{ padding: '30px', fontSize: '2rem' }}
+                style={{ padding: '30px', fontSize: '1.5rem' }}
               >
                 <div className="d-flex align-items-center">
                   <div
@@ -36,20 +36,20 @@ const Leaderboard = () => {
               </div>
               <div
                 className="list-group-item d-flex justify-content-between align-items-center bg-dark text-white border-0"
-                style={{ padding: '30px', fontSize: '2rem' }}
+                style={{ padding: '30px', fontSize: '1.5rem' }}
               >
                 <div className="d-flex align-items-center">
                   <div
                     className="rounded-circle bg-secondary"
                     style={{ width: '40px', height: '40px', marginRight: '20px' }}
                   ></div>
-                  <span>TestUser8</span>
+                  <span>TestUser10</span>
                 </div>
-                <span>145</span>
+                <span>130</span>
               </div>
               <div
                 className="list-group-item d-flex justify-content-between align-items-center bg-dark text-white border-0"
-                style={{ padding: '30px', fontSize: '2rem' }}
+                style={{ padding: '30px', fontSize: '1.5rem' }}
               >
                 <div className="d-flex align-items-center">
                   <div

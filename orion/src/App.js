@@ -53,6 +53,7 @@ import Register from './components/Register';
 import Hello from './components/Hello';
 import Dashboard from './components/Dashboard';
 import Leaderboard from './components/leaderboard';
+import Tutorials from './components/Tutorials';
 
 
 
@@ -93,6 +94,7 @@ const AppRoutes = () => {
       <Route path="/writer" element={<WritersHome />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/leaderboard" element={<Leaderboard />} />
+      <Route path="/Tutorials" element={<Tutorials Tutorials/>} />
       <Route path="/WriterLvl1" element={<WriterLvl1 />} />
       <Route path="/artists" element={<Artist />} />
       <Route path="/ArtistLvl1" element={<ArtistLvl1 />} />

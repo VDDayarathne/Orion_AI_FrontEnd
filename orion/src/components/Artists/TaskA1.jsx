@@ -65,12 +65,11 @@ const TaskA1 = () => {
             <Card.Body className='card-body'>
               <Card.Title style={{color:"white"}}>Task Description</Card.Title>
               <Card.Text style={{color:"white"}}>
-                In the heart of the Acropolis of Code, an ancient Oracle has awakened, foretelling a coming storm that threatens the harmony between man and machine. Queen Sophia, wise and just, has summoned the most skilled promptsmiths to her court.
-                As a Promptian, your first task is to craft a simple yet powerful prompt that can guide the Oracle to reveal more about this impending danger. The prompt must be clear and precise, as the Oracle's response will shape the kingdom's next steps.
+              The ancient city of Lumora, hidden in the heart of the Celestial Valley, is on the brink of collapse. A forbidden artifact known as the Echo Core has been uncovered, pulsing with mysterious energy. The Scholars of Light seek answers, while the Shadowborn plot in the dark. As a Promptian, your first task is to craft a compelling prompt that will guide the Oracle of Lumora to reveal the artifact’s true nature.
               </Card.Text>
               <Card.Title style={{color:"white"}}>Objective</Card.Title>
               <Card.Text style={{color:"white"}}>
-                Create a prompt that will ask the Oracle to describe the nature of the threat posed by the Silencers and suggest ways to safeguard the kingdom. Keep it concise, ensuring the Oracle understands and responds with valuable insights.
+              Create a precise and effective prompt that asks the Oracle to describe the origins, powers, and possible dangers of the Echo Core.
               </Card.Text>
             </Card.Body>
           </Card>

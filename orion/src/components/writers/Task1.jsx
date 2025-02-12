@@ -71,7 +71,11 @@ const Task1 = () => {
         </Col>
         <Col md={4}>
           <h5>Model</h5>
-          <Button variant="dark" className="mb-3">Gemini</Button>
+          {["Gemini", "Open_Ai", "Meta_Ai"].map((model) => (
+              <Button key={model} variant="dark" className={`mb-3`} >
+                {model}
+              </Button>
+            ))}
         </Col>
       </Row>
       <Row className="mt-4">
