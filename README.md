@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/65e7ae89-5ee2-4cac-884c-e297e0a12ce9)OrionAI 🌌
+OrionAI 🌌
 
 OrionAI is a cutting-edge AI-powered application that enables users to generate images and text using intelligent prompt enhancement. It supports multiple AI models and provides a gamified learning experience through a task-based prompt system.
 
@@ -74,3 +74,4 @@ Integrate speech-to-text input
 🤝 Contribution
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+[git@github.com:VDDayarathne/Orion_AI_FrontEnd.git](https://github.com/VDDayarathne/Orion_AI_FrontEnd.git)
